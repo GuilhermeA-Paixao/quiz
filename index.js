@@ -119,7 +119,7 @@ const perguntas = [
       if(estaCorreta) {
         corretas.add(item)
       } else(corretas.delete(item))
-    
+      mostrarTotal.textContent = corretas.size + ' de ' + totalDeperguntas
   }
     
     
